@@ -33,7 +33,7 @@ export default class SearchBox extends React.Component {
         <input
           name="search-box"
           style={{ width: "17em" }}
-          ariaLabel="search box"
+          aria-label="search box"
           id="search-box"
           value={this.state.search}
           placeholder="What is it that you truly desire?"
